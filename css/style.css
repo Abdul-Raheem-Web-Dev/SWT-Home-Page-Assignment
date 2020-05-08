@@ -1,0 +1,527 @@
+@import url("menu.css");
+@import url("media-queries.css");
+
+/* CSS Start */
+
+/* All Element CSS Start */
+*
+{
+    box-sizing: border-box;
+}
+/* All Element CSS End */
+
+/* Body CSS Start */
+body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 'open sans', sans-serif;
+}
+/* Body CSS End */
+
+/* Repeatative Work CSS Start */
+
+/* Repeated Colored Text CSS Start */
+span
+{
+    color: #02f211;
+}
+/* Repeated Colored Text CSS End */
+
+/* Repeated Heading And Image With Horizontal Rule CSS Start */
+.heading
+{
+    text-align: center;   
+}
+.heading h1
+{
+    font-size: 32px;
+    margin: 30px 0px 15px 0px;
+}
+.heading-pre-part
+{
+    color: #316dc3;
+}
+.heading-post-part
+{
+    color: #518415;
+}
+.image-with-horizontal-rule table
+{
+    width: 100%; 
+    text-align: center;
+}
+.left-horizontal-rule
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #518415;
+    background-color: #518415;
+    text-align: right;
+    margin-right: 3px;
+}
+.logo-column
+{
+    width: 5%;
+}
+.right-horizontal-rule
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #518415;
+    background-color: #518415;
+    text-align: left;
+    margin-left: 3px;
+}
+/* Repeated Heading And Image With Horizontal Rule CSS End */
+
+/* Repeatative Work CSS End */
+
+/* Main Container Div CSS Start */
+.main-container
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/* Main Container Div CSS End */
+
+/*  Header Css Start */
+.header
+{
+    display: flex;
+    min-height: 40px;
+    justify-content: space-between;
+    background-color: #316dc3;
+}
+/*  Header Css End */
+
+/*  Header Social Media Links Css Start */
+.social-media-links
+{
+    margin: 0px 0px 0px 40px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    align-self: center;
+}
+.social-media-links li
+{
+    margin: 10px;
+    display: inline-block;
+}
+.social-media-links li a
+{
+    color: white;
+    text-decoration: none;
+}
+/* Header Social Media Links Css End */
+
+/* Header Donation Request Text Css Start */
+.donation-request
+{
+    margin: 0px;
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+}
+/* Header Donation Request Text Css End */
+
+/* Header Social Work Buttons Css Start */
+.social-work-buttons
+{
+    margin: 0px 40px 0px 0px;
+    padding: 0px;
+    list-style: none;
+    align-self: center;
+}
+.social-work-buttons li
+{
+    border: 1px solid #518415;
+    margin: 1px;
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+}
+.social-work-buttons li a
+{
+    color: #518415;
+    text-decoration: none;
+}
+/* Header Social Work Buttons Css End */
+
+/* Menu Bar & Saylani Logo Css Start */
+
+/* Menu Bar Css Start */
+.menu-bar
+{
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    justify-content: space-between;
+    background-color: white;
+}
+/* Menu Bar Css End */
+
+/* Saylani Logo Css Start */
+#saylani-logo
+{
+    margin: 5px 40px;
+    align-self: center;
+}
+#menu-bar-saylani-logo
+{
+    width: 150px;
+    height: 40px;
+}
+/* Saylani Logo Css End */
+
+/* Menu Bar & Saylani Logo Css End */
+
+/* Image Slider Css Start */
+#image-slider
+{
+    width: 100%;
+}
+/* Image Slider Css End */
+
+/* News Ticker Css Start */
+.news
+{
+    margin: 5px 18px;
+    max-height: 25px;
+}
+#news-ticker
+{
+    padding-top: 4px;
+    color: white;
+    background-color: #316dc3;
+    min-height: 25px;
+}
+#news-ticker a
+{
+    text-decoration: none;
+    color:blue;
+}
+/* News Ticker Css End */
+
+/* Introduction Css Start */
+.introduction
+{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    background-color: #f7f8fa;
+    display: flex;
+    flex-direction: column;
+}
+#introduction-text
+{
+    line-height: 25px;
+    padding: 0px 140px 70px 140px;
+}
+#text
+{
+    font-size: 14px;
+    word-spacing: 0.5px;
+    color:gray;
+    text-align: justify;
+}
+/* Introduction Css End */
+
+/* counter Css Start */
+.counter
+{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 250px;
+    color: white;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    background-color: #2655e8;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter-content
+{
+    min-width: 20%;
+    height: 100%;
+    font-size: 16px;
+    padding: 20px;
+}
+.counter div img
+{
+    width: 40px;
+}
+/* counter Css End */
+
+/* Services Css Start */
+.services
+{
+    padding: 20px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f8fa;
+}
+#service-boxes
+{
+    display: grid;
+    margin: 0px;
+    grid-template-columns: auto auto auto;
+    background-color: #f7f8fa;
+    padding: 30px 50px 30px 50px;
+    gap: 15px;
+    text-align: center;
+}
+.box
+{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px #aaaaaa ;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.box img
+{
+   width: 50px;
+}
+.box h3
+{
+    color: #316dc3;
+    font-size: 16px;
+}
+/* Services Css End */
+
+/* Mission & Events Css Start */
+.mission-projects 
+{ 
+    grid-area: header1; 
+}
+.upcoming-events 
+{ 
+    grid-area: header2; 
+}
+.hepatitis 
+{ 
+    grid-area: main1; 
+}
+.housing-society 
+{ 
+    grid-area: main2; 
+}
+.it-literacy
+{ 
+    grid-area: main3; 
+}
+.tharparkar
+{ 
+    grid-area: main4; 
+}
+.event-slider
+{ 
+    grid-area: main5; 
+}
+.mission-events 
+{
+    display: grid;
+    grid-template-areas:
+    'header1 header1 header2'
+    'main1 main2 main5'
+    'main3 main4 main5';
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.mission-projects, .upcoming-events
+{
+    color: #316dc3;
+}
+.mission-projects hr
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #518415;
+    background-color: #518415;
+    text-align: left;
+    margin-left: 3px;
+}
+.upcoming-events hr
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #518415;
+    background-color: #518415;
+    text-align: left;
+    margin-left: 3px;
+}
+.hepatitis, .housing-society, .it-literacy, .tharparkar {
+  background-color: #f7f8fa;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #e8e9eb;
+}
+.mission-events span
+{
+    color: #316dc3;
+    font-size: 16px;
+    font-size: bolder;
+}
+.event-slider
+{
+   color: gray;
+}
+.event-slider a
+{
+    color: blue;
+    text-decoration: none;
+}
+/* Mission & Events Css End */
+
+/* Image Gallery Css Start */
+.image-gallery
+{
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#image-album
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0px;
+    background-color: white;
+    padding: 0px 30px ;
+}
+.album-pic
+{
+    width: 16%;
+    margin: 25px 1px;
+}
+.album-pic img
+{
+    width: 100%;
+    margin: 0px;
+}
+/* Image Gallery Css End */
+
+/* Footer Css Start */
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    width: 100%;
+    color: gray;
+    padding: 30px 80px 30px 50px;
+    justify-content: space-between;
+    align-self: center;
+    background-color: rgb(30, 30, 30);
+}
+.footer-content h3
+{
+    color: white;
+    align-self: flex-start;
+}
+.footer-content hr
+{
+    width: 30px;
+    height: 2px;
+    border-width: 0px;
+    color: #518415;
+    background-color: #518415;
+    text-align: left;
+    margin-left: 3px;
+}
+.footer-content ul
+{
+    padding: 0px;
+}
+.footer-content ul li
+{
+    list-style: none;
+    line-height: 25px;
+}
+.footer-content ul li i
+{
+    color: #518415;
+}
+
+.footer-content ul li a
+{
+    color:gray; 
+    text-decoration: none;
+}
+.links li
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: #316dc3;
+    padding: 3px;
+    text-align: center;
+}
+.links li:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+.links li i
+{
+    color: white !important;
+}
+.links li:hover i
+{
+    color: #316dc3 !important;
+}
+/* Footer Css End */
+
+/* Footer Css Start */
+.copyright-bar
+{
+    color: white;
+    background-color: #316dc3;
+}
+.copyright-bar h5
+{
+    margin: 0px;
+    padding: 10px 50px;
+    font-weight: normal;
+}
+/* Footer Css End */
+
+/* Top Button CSS Start */
+.top-button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.3;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+/* Top Buttton CSS End */
+
+
+
+/* CSS End */

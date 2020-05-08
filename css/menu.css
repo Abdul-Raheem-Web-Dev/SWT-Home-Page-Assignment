@@ -1,0 +1,252 @@
+/* All Element CSS Start */
+*
+{
+    box-sizing: border-box;
+}
+/* All Element CSS End */
+
+/* Body CSS Start */
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* Body CSS End */
+
+/*  Menu Bar CSS Start */
+.menu-bar
+{
+    display: flex;
+    font-size: 12px;
+    text-align: left;
+    line-height: 30px;
+}
+.menu-bar ul
+{
+    margin: 5px 40px 5px 0px;
+    padding: 0px;
+    list-style: none;
+    align-self: center;
+}
+.menu-bar ul li
+{
+    margin: 0px -3px 0px 0px;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+}
+.menu-bar ul li a
+{
+    color: black;
+    padding: 0px 20px;
+    display: block;
+    text-decoration: none;
+}
+.active
+{
+    border-radius: 20px;
+    background-color: #316dc3;
+}
+.active a
+{
+    color: white !important;
+}
+.menu-bar ul li:hover
+{
+    border-radius: 20px;
+    background-color: #316dc3;
+}
+.menu-bar ul li a:hover
+{
+    color: white !important;
+}
+/*  Menu Bar CSS End */
+
+/*  About Sub Menu CSS Start */
+.about-sub-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 170px;
+}
+.about-sub-menu li
+{
+    width: 100%;
+}
+.menu-bar ul li:hover .about-sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color:white;
+    margin: 4px 0px 0px 0px;
+    z-index: 1;
+}
+.about-sub-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  About Sub Menu CSS End */
+
+/*  Saylani Service Sub Menu CSS Start */
+.saylani-service-sub-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 200px;
+}
+.saylani-service-sub-menu li
+{
+    width: 100%;
+}
+.menu-bar ul li:hover .saylani-service-sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: 4px 0px 0px 0px;
+    z-index: 1;
+}
+.saylani-service-sub-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Saylani Service Sub Menu CSS End */
+
+/*  Services Sub Menu CSS Start */
+.services-sub-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 240px;
+}
+.services-sub-menu li
+{
+    width: 100%;
+}
+.saylani-service-sub-menu li:hover .services-sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: -31px 0px 0px 200px;
+    z-index: 1;
+}
+.services-sub-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Services Sub Menu CSS End */
+
+/*  Services Sub Menu - Child Menu CSS Start */
+.services-sub-menus-child-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 160px;
+}
+.services-sub-menus-child-menu li
+{
+    width: 100%;
+}
+.services-sub-menu li:hover .services-sub-menus-child-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: -31px 0px 0px 240px;
+    z-index: 1;
+}
+.services-sub-menus-child-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Services Sub Menu - Child Menu CSS End */
+
+/*  Future Projects Sub Menu CSS Start */
+.future-projects-sub-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 150px;
+}
+.future-projects-sub-menu li
+{
+    width: 100%;
+}
+.menu-bar ul li:hover .future-projects-sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: 4px 0px 0px 0px;
+    z-index: 1;
+}
+.future-projects-sub-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Future Projects Sub Menu CSS End */
+
+/*  Donation Sub Menu CSS Start */
+.donation-sub-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    min-width: 140px;
+}
+.donation-sub-menu li
+{
+    width: 100%;
+}
+.menu-bar ul li:hover .donation-sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: 4px 0px 0px -40px;
+    z-index: 1;
+}
+.donation-sub-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Donation Sub Menu CSS End */
+
+/*  Donation Sub Menu - Child Menu CSS Start */
+.donation-sub-menus-child-menu
+{
+    display: none;
+    border: 1px solid lightgray;
+    max-width: 150px;
+}
+.donation-sub-menus-child-menu li
+{
+    width: 100%;
+}
+.donation-sub-menu li:hover .donation-sub-menus-child-menu
+{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin: -30px 0px 0px -154px;
+    z-index: 1;
+}
+.donation-sub-menus-child-menu li:hover
+{
+    border-left: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+}
+/*  Donation Sub Menu - Child Menu CSS End */

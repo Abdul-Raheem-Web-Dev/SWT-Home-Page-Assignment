@@ -1,0 +1,208 @@
+/* Media Queries Start */
+
+/*  Header Media Query Start */
+@media screen and (max-width: 950px)
+{
+    .header
+    {
+        flex-direction: column !important;
+    }
+    .social-media-links 
+    {
+        margin: 0px 0px 0px 0px !important;
+
+    }
+    .donation-request
+    {
+        padding: 10px !important;
+    }
+    .social-work-buttons
+    {
+        margin: 0px !important;
+        padding: 10px !important;
+    }
+}
+@media screen and (max-width: 300px)
+{
+    .social-work-buttons li a
+    {
+        font-size: 8px !important;
+        font-weight: bold !important;
+    }
+}
+/*  Header Media Query End */
+
+/*  Menu Bar Section Media Query Start */
+@media screen and (max-width: 950px)
+{
+    .menu-bar
+{
+   flex-direction: column;
+   font-size: 8px !important;
+}
+.menu-bar ul
+{
+   margin: 5px 0px !important;
+}
+.about-sub-menu
+{
+    min-width: 130px !important;
+}
+.saylani-service-sub-menu
+{
+    min-width: 150px !important;
+}
+.services-sub-menu
+{
+    min-width: 180px !important;
+}
+.saylani-service-sub-menu li:hover .services-sub-menu
+{
+    margin: -31px 0px 0px 150px !important;
+}
+.services-sub-menus-child-menu
+{
+    min-width: 120px !important;
+}
+.services-sub-menu li:hover .services-sub-menus-child-menu
+{
+    margin: -31px 0px 0px 180px !important;
+}
+.future-projects-sub-menu
+{
+    min-width: 110px !important;
+}
+.donation-sub-menu
+{
+    min-width: 120px !important;
+}
+.menu-bar ul li:hover .donation-sub-menu
+{
+    margin: 4px 0px 0px -60px !important;
+}
+.donation-sub-menus-child-menu
+{
+    max-width: 110px !important;
+}
+.donation-sub-menu li:hover .donation-sub-menus-child-menu
+{
+    margin: -31px 0px 0px -114px !important;
+}
+
+}
+/*  Menu Bar Section Media Query End */
+
+/*  Introduction Section Media Query Start */
+@media screen and (max-width: 1150px)
+{
+    #introduction-text
+{
+    padding: 0px 70px 70px 70px !important;
+}
+}
+@media screen and (max-width: 950px)
+{
+    #introduction-text
+    {
+        padding: 0px 20px 70px 20px !important;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    #introduction-text
+    {
+        line-height: 20px !important;
+        padding: 0px 10px 70px 10px !important;
+    }
+}
+/*  Introduction Section Media Query End */
+
+/*  Counter Section Media Query Start */
+@media screen and (max-width: 1150px)
+{
+    .counter-content
+    {
+        min-width: 50% !important;
+    }
+}
+@media screen and (max-width: 950px)
+{
+    .counter-content
+    {
+        min-width: 100% !important;
+    }
+}
+/*  Counter Section Media Query End */
+
+/*  Services Section Media Query Start */
+@media screen and (max-width: 950px)
+{
+    #service-boxes
+    {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .box
+    {
+        width: 100% !important;
+    }
+}
+/*  Services Section Media Query End */
+
+/*  Mission And Event Section Media Query Start */
+@media screen and (max-width: 950px)
+{
+    .mission-events 
+    {
+        grid-template-areas:
+        'header1'
+        'main1'
+        'main2'
+        'main3'
+        'main4'
+        'header2'
+        'main5'
+        'main5' !important;
+    }
+}
+/*  Mission And Event Section Media Query End */
+
+/*  Image Gallery Section Media Query Start */
+@media screen and (max-width: 950px)
+{
+    .album-pic
+    {
+        width: 32% !important;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .album-pic
+    {
+        width: 49% !important;
+    }
+}
+@media screen and (max-width: 300px)
+{
+    .album-pic
+    {
+        width: 100% !important;
+    }
+}
+/*  Image Gallery Section Media Query End */
+
+/*  Footer Section Media Query Start */
+@media screen and (max-width: 750px)
+{
+    .footer
+    {
+        flex-direction: column;
+    }
+    .footer-content
+    {
+        width: 100%;
+    }
+}
+/*  Footer Section Media Query End */
+
+/* Media Queries End */
